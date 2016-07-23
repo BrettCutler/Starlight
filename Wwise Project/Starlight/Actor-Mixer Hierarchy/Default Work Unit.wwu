@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02225A48-F8A6-489B-AE0E-CC6C634573A6}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{02225A48-F8A6-489B-AE0E-CC6C634573A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ball Hit" ID="{5A3D9608-07CE-4779-8B4C-CA0C2FA12B31}" ShortID="296213961">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{CB66A9C4-9923-487A-8FA6-C355F9A75017}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sound Effects" ID="{0DFBC9C0-870F-4AE7-942B-A889A0ED9558}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Ball Hit Environment" ID="{FD0A4232-F366-4A08-8F67-3048902B5DCB}" ShortID="93017572">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ping Pong Bounce 1" ID="{B5D23621-FD87-4BFD-9ABA-C70B984F03AE}" ShortID="274163930" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ping Pong Bounce 1" ID="{E59C7F99-7948-40D8-9CAE-38C2C47C58CE}" ShortID="534286416">
+											<Language>SFX</Language>
+											<AudioFile>Ping Pong Bounce 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ping Pong Bounce 1" ID="{E59C7F99-7948-40D8-9CAE-38C2C47C58CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ping Pong Bounce 2" ID="{D6903285-A960-4FF7-A710-E83A9ACC72FC}" ShortID="974133080" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5B1D05E4-B917-442A-BA4E-53B0112B3DF5}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ping Pong Bounce 2" ID="{23ACD8C6-BE8B-40F9-91DE-31C3874189F5}" ShortID="1012267260">
+											<Language>SFX</Language>
+											<AudioFile>Ping Pong Bounce 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ping Pong Bounce 2" ID="{23ACD8C6-BE8B-40F9-91DE-31C3874189F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ping Pong Bounce 3" ID="{371A0371-70E0-4432-A005-66FC0BEBB8E5}" ShortID="59949359" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{539B80C0-9E37-4300-9EC2-C2DB3B53D5AD}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ping Pong Bounce 3" ID="{79748758-B502-4E74-A3EC-932A4183E78C}" ShortID="384691767">
+											<Language>SFX</Language>
+											<AudioFile>Ping Pong Bounce 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ping Pong Bounce 3" ID="{79748758-B502-4E74-A3EC-932A4183E78C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ball Hit Racquet" ID="{E8A812A1-43A3-4EDD-94E2-C398F8321061}" ShortID="470190664">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ping Pong Hit 1" ID="{7370A63F-61AC-4FEA-AB12-AD9B4282A811}" ShortID="452517758" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ping Pong Hit 1" ID="{A0CEBD9B-BC63-48F0-8BEF-8366ABA0A23D}" ShortID="138369494">
+											<Language>SFX</Language>
+											<AudioFile>Ping Pong Hit 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ping Pong Hit 1" ID="{A0CEBD9B-BC63-48F0-8BEF-8366ABA0A23D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ping Pong Hit 2" ID="{05845B4C-1248-4346-9E16-E928293E06B1}" ShortID="431786220" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ping Pong Hit 2" ID="{A20FD2B3-253A-4576-B3C0-AFC9779406E0}" ShortID="416789238">
+											<Language>SFX</Language>
+											<AudioFile>Ping Pong Hit 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ping Pong Hit 2" ID="{A20FD2B3-253A-4576-B3C0-AFC9779406E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ball Hit Target" ID="{88FD3264-B287-4E4D-8AC7-E4A38D8B504D}" ShortID="730121991">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="219162__jagadamba__frogblock05" ID="{8D70EB1A-FCEC-4E75-82AE-D6C911C711A0}" ShortID="936996786" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="219162__jagadamba__frogblock05" ID="{8E82750E-F83A-400A-9E5B-2584CE8CD094}" ShortID="40732037">
+											<Language>SFX</Language>
+											<AudioFile>219162__jagadamba__frogblock05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="219162__jagadamba__frogblock05" ID="{8E82750E-F83A-400A-9E5B-2584CE8CD094}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

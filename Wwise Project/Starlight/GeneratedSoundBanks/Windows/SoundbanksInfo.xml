@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Sandbox\Starlight\Wwise Project\Starlight\</ProjectRoot>
+		<SourceFilesRoot>C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Sandbox\Starlight\Wwise Project\Starlight\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Sandbox\Starlight\Wwise Project\Starlight\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2477217360" Language="SFX">
+			<ShortName>PC_Soundbank</ShortName>
+			<Path>PC_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="136255780" Name="BallHitEnvironment"/>
+				<Event Id="2734328124" Name="BallHitRacquet"/>
+				<Event Id="2589362642" Name="BallHitTarget"/>
+				<Event Id="638590152" Name="DebugNoise"/>
+				<Event Id="3972663958" Name="PlayGalileo"/>
+				<Event Id="2907867019" Name="StopAllMusic" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="40732037" Language="SFX">
+					<ShortName>219162__jagadamba__frogblock05.wav</ShortName>
+					<Path>SFX\219162__jagadamba__frogblock05_9E69E797.wem</Path>
+				</File>
+				<File Id="138369494" Language="SFX">
+					<ShortName>Ping Pong Hit 1.wav</ShortName>
+					<Path>SFX\Ping Pong Hit 1_9E69E797.wem</Path>
+				</File>
+				<File Id="384691767" Language="SFX">
+					<ShortName>Ping Pong Bounce 3.wav</ShortName>
+					<Path>SFX\Ping Pong Bounce 3_9E69E797.wem</Path>
+				</File>
+				<File Id="407290213" Language="SFX">
+					<ShortName>Galileo_06.wav</ShortName>
+					<Path>SFX\Galileo_06_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="416789238" Language="SFX">
+					<ShortName>Ping Pong Hit 2.wav</ShortName>
+					<Path>SFX\Ping Pong Hit 2_9E69E797.wem</Path>
+				</File>
+				<File Id="534286416" Language="SFX">
+					<ShortName>Ping Pong Bounce 1.wav</ShortName>
+					<Path>SFX\Ping Pong Bounce 1_9E69E797.wem</Path>
+				</File>
+				<File Id="1012267260" Language="SFX">
+					<ShortName>Ping Pong Bounce 2.wav</ShortName>
+					<Path>SFX\Ping Pong Bounce 2_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

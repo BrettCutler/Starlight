@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="70">
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2911372371" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="2911277180" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2910969115" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Attenuations\Default Work Unit.wwu" DateLow="2912114072" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Control Surface Sessions\Default Work Unit.wwu" DateLow="2912486683" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Conversion Settings\Default Work Unit.wwu" DateLow="2911422196" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2911086357" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2912144148" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Default Work Unit.wwu" DateLow="2912034124" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory Auro Headphone.wwu" DateLow="2912212206" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory Effects.wwu" DateLow="2912297314" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Box Modeler.wwu" DateLow="2911968757" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Delay.wwu" DateLow="2912337543" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Dynamics.wwu" DateLow="2911732276" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Filters.wwu" DateLow="2912179246" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="2912073962" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2912003771" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2911876585" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Effects\Factory McDSP Effects.wwu" DateLow="2911831468" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Events\Default Work Unit.wwu" DateLow="2911322304" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Game Parameters\Default Work Unit.wwu" DateLow="2910748532" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2911019248" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2912451586" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2911472831" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Mixing Sessions\Default Work Unit.wwu" DateLow="2911697448" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Modulators\Default Work Unit.wwu" DateLow="2912517107" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Presets\Default Work Unit.wwu" DateLow="2911916703" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Queries\Default Work Unit.wwu" DateLow="2911667415" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Queries\Factory Queries.wwu" DateLow="2912377567" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\SoundBanks\Default Work Unit.wwu" DateLow="2910626865" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2911601926" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Starlight.Brett.wsettings" DateLow="43688374" DateHigh="30502661"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Starlight.wproj" DateLow="2910546825" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\States\Default Work Unit.wwu" DateLow="2910672052" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Switches\Default Work Unit.wwu" DateLow="2911511527" DateHigh="30502647"/>
+	<ValidationCacheItem File="C:\Sandbox\Starlight\Wwise Project\Starlight\Triggers\Default Work Unit.wwu" DateLow="2911551638" DateHigh="30502647"/>
+</ValidationCache>

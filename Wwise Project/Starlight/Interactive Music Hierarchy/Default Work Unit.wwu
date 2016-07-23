@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87B9EC9F-100D-4FA5-B188-E0FFA707D4E6}" SchemaVersion="70">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{87B9EC9F-100D-4FA5-B188-E0FFA707D4E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Galileo v2_08" ID="{0239D9BC-3D5C-453D-B06C-4613D2E53BFA}" ShortID="339899730">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="341016.848072562"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{B6588929-346B-4E04-8FCC-63F1119C1C00}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Galileo v2_08" ID="{B9BD1DAF-F5E0-40A6-82CD-7D60F7CD4D9F}" ShortID="1017783407">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Galileo v2_08" ID="{CE11275D-8333-4B41-8564-68CB08F69D9B}" ShortID="374393505">
+									<Language>SFX</Language>
+									<AudioFile>Galileo v2_08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{AE2DC82B-6633-476E-B290-C606BA2CAC03}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{6DEE3073-4C71-4BE1-8B1A-66C5A901C391}">
+									<ClipList>
+										<MusicClip Name="Galileo v2_08" ID="{47B952DF-A857-4710-8CE3-DA77AD78B95D}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="341016.848072562"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Galileo v2_08" ID="{CE11275D-8333-4B41-8564-68CB08F69D9B}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{E7CEB58A-02F9-463E-8EEF-AC73DC227221}"/>
+						<MusicCue Name="Exit Cue" ID="{555FBCB5-BFAB-4781-A760-051D0025ABA5}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="341016.848072562"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Galileo_06" ID="{D77614C1-A3D3-4EB1-8C4D-49B82387F4FD}" ShortID="982850147">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="338801.56462585"/>
+						<Property Name="Tempo" Type="Real64" Value="124"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Galileo_06" ID="{273234DB-BD96-4738-B6B3-E9191B7A5F3C}" ShortID="361879484">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Galileo_06" ID="{0C81946F-6B8E-48B3-8F82-315B5DF1FAAD}" ShortID="407290213">
+									<Language>SFX</Language>
+									<AudioFile>Galileo_06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FE9FA564-2905-462D-8D33-AAC8BE112603}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{A0A891C0-AC23-49CF-BFD1-5B8D52A50084}">
+									<ClipList>
+										<MusicClip Name="Galileo_06" ID="{EA8F177D-7CF0-48CD-B29E-7427200EF6A0}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="338801.56462585"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Galileo_06" ID="{0C81946F-6B8E-48B3-8F82-315B5DF1FAAD}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{2874FDA5-9C79-4AAC-808E-9FA791165E5D}"/>
+						<MusicCue Name="Exit Cue" ID="{81483D43-32BD-4694-B405-5DDDBE1C3AB2}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="338801.56462585"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 1_03" ID="{1F5FB25A-D7BA-481D-B9F0-1FE26ACB0E61}" ShortID="206490942">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="132169.387755102"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 1_03" ID="{BA56826A-F89F-47A7-B8F9-DC9F5CAC93B5}" ShortID="359182467">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 1_03" ID="{61841540-9D2B-480A-BEFF-15A3BF8F1C03}" ShortID="805654002">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 1_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BB146526-E8CF-4340-8E9C-EA75DB6C34F4}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{162B984B-6475-48EA-800E-B06B233B31E6}">
+									<ClipList>
+										<MusicClip Name="Starlight 1_03" ID="{83F648BA-7E9B-4CB0-9B54-ECB2E6658DC3}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="132169.387755102"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 1_03" ID="{61841540-9D2B-480A-BEFF-15A3BF8F1C03}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{34A6B307-938F-4E84-8D36-1BDE777FC68C}"/>
+						<MusicCue Name="Exit Cue" ID="{D664A367-4D4C-46A1-B880-71F54B17BFF3}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="132169.387755102"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 2_05" ID="{C80D9B28-22D3-4F70-AE38-97ABE4345620}" ShortID="299443865">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="193506.598639456"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 2_05" ID="{FB823BB7-D472-44FE-AB87-B0A62B620D8B}" ShortID="744510589">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 2_05" ID="{D4E385D9-B5DC-4D95-8C09-D497E69E1B3E}" ShortID="545291728">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 2_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2FC1F26F-44D6-481B-8EA8-31E1E5317182}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{A343F2B5-A8A5-403A-A515-7EF2CF57E1AF}">
+									<ClipList>
+										<MusicClip Name="Starlight 2_05" ID="{20485B7C-3744-41D6-BCDD-32C55363A7B1}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="193506.598639456"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 2_05" ID="{D4E385D9-B5DC-4D95-8C09-D497E69E1B3E}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{8A44C7E2-A95B-4206-AA3F-20AC9F91215D}"/>
+						<MusicCue Name="Exit Cue" ID="{FBA4F4CE-32CF-46B4-99C7-270D12A4EF09}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="193506.598639456"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 3_07" ID="{045E17D1-A736-4C76-B0D3-1314196569F3}" ShortID="140606682">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="109037.188208617"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 3_07" ID="{EAD1048B-0744-4017-9216-2AA3F2E71F53}" ShortID="892380517">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 3_07" ID="{0F98F669-D990-4665-9EBB-52BC01DEE43F}" ShortID="85657332">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 3_07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E1CC08B3-D031-4530-B7CB-20404198B9F7}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{8880F74D-B88F-44B2-8FEA-E46DADD79AA2}">
+									<ClipList>
+										<MusicClip Name="Starlight 3_07" ID="{3DEAD972-E3A2-4520-83AA-FCD742BFA084}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="109037.188208617"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 3_07" ID="{0F98F669-D990-4665-9EBB-52BC01DEE43F}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{031DBFD1-91EE-4AAA-9FFB-B424E6EC26BF}"/>
+						<MusicCue Name="Exit Cue" ID="{A76EAC6E-EA6E-41B9-A66B-16807A85BFDE}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="109037.188208617"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 4 V2_03" ID="{5D131D3A-4B5D-4D74-8FA0-A466EC003EB3}" ShortID="840994500">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="228138.843537415"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 4 V2_03" ID="{FDCB5704-A9F3-47C7-B48C-87C0B4EEB2F4}" ShortID="482172599">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 4 V2_03" ID="{1A2DB61B-4E61-43BD-A5E0-CAB7C2B4AE9E}" ShortID="634121349">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 4 V2_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EE39CC54-9718-4474-B065-7E62F53CD2FC}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{418103B5-7550-4ADB-89EB-0C96476E8918}">
+									<ClipList>
+										<MusicClip Name="Starlight 4 V2_03" ID="{0821DD02-E26A-4948-AD1F-95333B0FE45F}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="228138.843537415"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 4 V2_03" ID="{1A2DB61B-4E61-43BD-A5E0-CAB7C2B4AE9E}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{99DF5DFF-C0E2-4C5C-9BB2-3DC96697EF0F}"/>
+						<MusicCue Name="Exit Cue" ID="{DF2A5822-23C7-4636-A584-2ADBAEB2A06F}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="228138.843537415"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 4 V3_05" ID="{E9C90C97-546C-454B-A78B-59E9F636122B}" ShortID="620232588">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="337747.414965986"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 4 V3_05" ID="{056C4F1F-8025-4505-A0F1-079B3EE4182C}" ShortID="42244290">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 4 V3_05" ID="{AE40FB2A-9840-4846-905B-25833C6A2CC7}" ShortID="90851544">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 4 V3_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{702FBA16-8C01-4C92-BF81-13B3317D0D66}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{4200B6DA-3AE5-42B4-8F29-93107C523945}">
+									<ClipList>
+										<MusicClip Name="Starlight 4 V3_05" ID="{19570058-A03C-4ACE-B8C2-B07DDFE0A3F2}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="337747.414965986"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 4 V3_05" ID="{AE40FB2A-9840-4846-905B-25833C6A2CC7}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{01AAA8CA-CB01-44DA-9087-822B01F95680}"/>
+						<MusicCue Name="Exit Cue" ID="{4E6DDE29-D61F-4B1A-925A-050171FDDDDF}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="337747.414965986"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 4_01" ID="{069D626B-9EBC-4426-B0E2-F0254283FFF1}" ShortID="682952198">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="167008.344671202"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 4_01" ID="{40D59421-F146-4CAC-AFEE-14D971F63963}" ShortID="126704184">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 4_01" ID="{32B97F43-9DE1-46FD-9C48-CA84918CFE4C}" ShortID="634911139">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 4_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7EE22074-E225-4375-AC56-5C754662957E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{FB9DC1C0-3B70-407C-90EB-3FD78C917850}">
+									<ClipList>
+										<MusicClip Name="Starlight 4_01" ID="{C870B82E-7354-4356-A8DC-972445F95E9B}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="167008.344671202"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 4_01" ID="{32B97F43-9DE1-46FD-9C48-CA84918CFE4C}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{FF5B93DE-75EA-4755-A2BE-832993438488}"/>
+						<MusicCue Name="Exit Cue" ID="{6669A5B9-FB71-48B0-B86A-B0E13B593E8A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="167008.344671202"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 5_01-01" ID="{15888CF2-6B5A-4E1D-9BD8-E59164C3BB4D}" ShortID="387249351">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="119055.124716553"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 5_01-01" ID="{B69764EF-AEDA-4B66-9758-652055EA6F0F}" ShortID="711569759">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 5_01-01" ID="{213D9266-B2F3-4F0D-8E8B-B92E52527131}" ShortID="289009720">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 5_01-01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{88D207A3-0FB3-4BE1-BF73-BB947A99B96E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{414BB91F-6955-4CA1-B01D-8506CD8A93AF}">
+									<ClipList>
+										<MusicClip Name="Starlight 5_01-01" ID="{22AE11C8-E630-4210-98D7-DC20E3088F9D}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="119055.124716553"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 5_01-01" ID="{213D9266-B2F3-4F0D-8E8B-B92E52527131}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{EFC45FA0-A06F-458D-86DA-B0DACD7E022C}"/>
+						<MusicCue Name="Exit Cue" ID="{9A745233-738B-4F35-9D88-687FDE02AE03}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="119055.124716553"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 6 v2_02" ID="{6B508898-3C3A-4A7D-96D5-06A57E650AA5}" ShortID="57786805">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="269648.458049887"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 6 v2_02" ID="{DCDDF826-8C72-4D08-AFFC-A0984573E16F}" ShortID="406678496">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 6 v2_02" ID="{8366C631-DBC5-4694-90CD-6D40C892A1E0}" ShortID="989073417">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 6 v2_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{35D2C67B-6ED0-4FFB-9FB4-49C2D5C77C55}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{134C75D5-CB53-4AFB-AA82-A03ECD88A12E}">
+									<ClipList>
+										<MusicClip Name="Starlight 6 v2_02" ID="{F0D67505-852A-4B3F-B5BC-B1F9BD4A5943}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="269648.458049887"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 6 v2_02" ID="{8366C631-DBC5-4694-90CD-6D40C892A1E0}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{21F93CA4-6663-4861-9F4C-BB156FE388B7}"/>
+						<MusicCue Name="Exit Cue" ID="{7BADB268-4FF5-47F3-BFBF-9EE848C63926}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="269648.458049887"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Starlight 6_05_01" ID="{3E194DFD-5961-4FE6-BE9B-C5228DA31FD9}" ShortID="432250368">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="159226.303854875"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{13FADFCA-1BE1-4B1B-8CF9-D46CE11E81D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Starlight 6_05_01" ID="{FBC4ED97-4D77-40A0-9A90-391313C88733}" ShortID="92304988">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Starlight 6_05_01" ID="{3C128848-08C2-4D06-846D-0F86A6ADD35D}" ShortID="159296625">
+									<Language>SFX</Language>
+									<AudioFile>Starlight 6.05_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3CA1161D-7161-4D95-8E59-3354C6AADC75}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{31CF2F7D-9F1C-4D31-B6DE-3B598E17C909}">
+									<ClipList>
+										<MusicClip Name="Starlight 6_05_01" ID="{9B7A1E5A-8C23-48F0-B6B1-1888B85E5D87}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="159226.303854875"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Starlight 6_05_01" ID="{3C128848-08C2-4D06-846D-0F86A6ADD35D}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{D99DE211-5739-4C3A-A8B9-F5FC1E3B57FF}"/>
+						<MusicCue Name="Exit Cue" ID="{6C2A7448-90F3-4119-8B23-D523C1E351BD}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="159226.303854875"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FCC50CEE-00FD-46DB-9919-FE34FA957439}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FCC50CEE-00FD-46DB-9919-FE34FA957439}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="PC_Soundbank" ID="{A2D3EBA4-B40F-4F5D-9B11-93C02DB92318}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BallHitTarget" ID="{5DB7731E-56A2-4E4D-8AB7-B8DD3E582E7A}" WorkUnitID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BallHitEnvironment" ID="{56551577-6209-40DC-8D09-DC90285395DF}" WorkUnitID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopAllMusic" ID="{CF39C7A7-1CA4-4EE9-8A92-62A32632DA1E}" WorkUnitID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayGalileo" ID="{F3743AAB-A625-4713-B093-8BD7B51503B6}" WorkUnitID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DebugNoise" ID="{814350D9-2F5A-4137-831C-B38167647E6A}" WorkUnitID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BallHitRacquet" ID="{94CBFDFF-4B5C-47FA-A535-1929D3993CD6}" WorkUnitID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

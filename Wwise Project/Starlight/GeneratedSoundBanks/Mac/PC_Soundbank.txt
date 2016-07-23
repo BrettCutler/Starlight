@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	136255780	BallHitEnvironment			\Default Work Unit\BallHitEnvironment	
+	638590152	DebugNoise			\Default Work Unit\DebugNoise	
+	2589362642	BallHitTarget			\Default Work Unit\BallHitTarget	
+	2734328124	BallHitRacquet			\Default Work Unit\BallHitRacquet	
+	2907867019	StopAllMusic			\Default Work Unit\StopAllMusic	
+	3972663958	PlayGalileo			\Default Work Unit\PlayGalileo	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	129	MIDI note velocity			\MIDI note velocity	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	796713149	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	507728361	DENIED 01	Wwise Synth One		\Actor-Mixer Hierarchy\Factory Synth One\UI Sounds\DENIED 01\DENIED 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40732037	219162__jagadamba__frogblock05	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\219162__jagadamba__frogblock05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball Hit\Ball Hit Target\219162__jagadamba__frogblock05		26208
+	138369494	Ping Pong Hit 1	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\Ping Pong Hit 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball Hit\Ball Hit Racquet\Ping Pong Hit 1		33812
+	384691767	Ping Pong Bounce 3	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\Ping Pong Bounce 3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball Hit\Ball Hit Environment\Ping Pong Bounce 3		17044
+	407290213	Galileo_06	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\Galileo_06_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Galileo_06\Galileo_06		59764660
+	416789238	Ping Pong Hit 2	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\Ping Pong Hit 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball Hit\Ball Hit Racquet\Ping Pong Hit 2		26132
+	534286416	Ping Pong Bounce 1	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\Ping Pong Bounce 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball Hit\Ball Hit Environment\Ping Pong Bounce 1		17944
+	1012267260	Ping Pong Bounce 2	C:\Sandbox\Starlight\Wwise Project\Starlight\.cache\Mac\SFX\Ping Pong Bounce 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball Hit\Ball Hit Environment\Ping Pong Bounce 2		16360
+

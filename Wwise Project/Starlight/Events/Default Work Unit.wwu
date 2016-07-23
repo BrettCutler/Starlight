@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C37B8963-5D4B-497B-A5D5-030EA09C78EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayGalileo" ID="{F3743AAB-A625-4713-B093-8BD7B51503B6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{93DBA36C-36C8-4AD1-BD50-B7238042772C}" ShortID="218779839" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{43002583-8A7D-4219-A50C-2A847CF4B0DF}" Global="false">
+									<ObjectRef Name="Galileo_06" ID="{D77614C1-A3D3-4EB1-8C4D-49B82387F4FD}" WorkUnitID="{87B9EC9F-100D-4FA5-B188-E0FFA707D4E6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopAllMusic" ID="{CF39C7A7-1CA4-4EE9-8A92-62A32632DA1E}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{B43A9444-D522-4925-B6A2-FE6C9DD36A18}" ShortID="223173583" Type="Stop" Scope="All" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BallHitEnvironment" ID="{56551577-6209-40DC-8D09-DC90285395DF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1DEE194C-5085-4151-A62B-A0BCD02B11FA}" ShortID="248968486" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{04DB2271-C843-4BE5-ABFB-735702089311}" Global="false">
+									<ObjectRef Name="Ball Hit Environment" ID="{FD0A4232-F366-4A08-8F67-3048902B5DCB}" WorkUnitID="{02225A48-F8A6-489B-AE0E-CC6C634573A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BallHitRacquet" ID="{94CBFDFF-4B5C-47FA-A535-1929D3993CD6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C19DB437-F769-48A4-84DD-12AE6CE7DCE6}" ShortID="952035363" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2A1F5B3F-616C-4787-98B2-F06047626BC6}" Global="false">
+									<ObjectRef Name="Ball Hit Racquet" ID="{E8A812A1-43A3-4EDD-94E2-C398F8321061}" WorkUnitID="{02225A48-F8A6-489B-AE0E-CC6C634573A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BallHitTarget" ID="{5DB7731E-56A2-4E4D-8AB7-B8DD3E582E7A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{87382E41-C6FF-4124-A835-59D61A856B25}" ShortID="593312989" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1E31E9F1-DB98-492E-A433-DC703CC0F142}" Global="false">
+									<ObjectRef Name="Ball Hit Target" ID="{88FD3264-B287-4E4D-8AC7-E4A38D8B504D}" WorkUnitID="{02225A48-F8A6-489B-AE0E-CC6C634573A6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DebugNoise" ID="{814350D9-2F5A-4137-831C-B38167647E6A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F4A74450-5F84-4A18-B302-B940A789813E}" ShortID="56236778" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B6590257-33AF-4A39-9AE8-FE6AB9E14C3C}" Global="false">
+									<ObjectRef Name="DENIED 01" ID="{8DC105A1-1E83-4D49-B886-F0723C2150FD}" WorkUnitID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

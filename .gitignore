@@ -1,0 +1,15 @@
+Library/
+.vs/
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-firstpass.csproj
+Assembly-CSharp.csproj
+Face Smash.userprefs
+Face Smash.sln
+Face Smash.CSharp.csproj
+Face Smash.CSharp.Plugins.csproj
+Face Smash.CSharp.Editor.csproj
+obj/
+Temp/
+*.csproj
+*.sln
+Notes/~$TestData.xlsx

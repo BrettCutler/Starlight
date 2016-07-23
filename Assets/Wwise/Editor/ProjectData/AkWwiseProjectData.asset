@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32edb078c08e604facb94ae8a981278, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: Profile
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{C37B8963-5D4B-497B-A5D5-030EA09C78EC}'
+    m_lastTimePsrt1: -1469326114
+    m_lastTimePart2: -1999421509
+    List:
+    - Name: BallHitEnvironment
+      Path: Default Work Unit\BallHitEnvironment
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BallHitEnvironment
+        ObjectType: 3
+      ID: 136255780
+      Guid: 771555560962dc408d09dc90285395df
+      maxAttenuation: 0
+    - Name: BallHitRacquet
+      Path: Default Work Unit\BallHitRacquet
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BallHitRacquet
+        ObjectType: 3
+      ID: -1560639172
+      Guid: fffdcb945c4bfa47a5351929d3993cd6
+      maxAttenuation: 0
+    - Name: BallHitTarget
+      Path: Default Work Unit\BallHitTarget
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BallHitTarget
+        ObjectType: 3
+      ID: -1705604654
+      Guid: 1e73b75da2564d4e8ab7b8dd3e582e7a
+      maxAttenuation: 0
+    - Name: DebugNoise
+      Path: Default Work Unit\DebugNoise
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DebugNoise
+        ObjectType: 3
+      ID: 638590152
+      Guid: d95043815a2f3741831cb38167647e6a
+      maxAttenuation: 0
+    - Name: PlayGalileo
+      Path: Default Work Unit\PlayGalileo
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayGalileo
+        ObjectType: 3
+      ID: -322303338
+      Guid: ab3a74f325a61347b0938bd7b51503b6
+      maxAttenuation: 0
+    - Name: StopAllMusic
+      Path: Default Work Unit\StopAllMusic
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopAllMusic
+        ObjectType: 3
+      ID: -1387100277
+      Guid: a7c739cfa41ce94e8a9262a32632da1e
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{338CB5EF-1860-45D0-B991-3E43ED34E2C2}'
+    m_lastTimePsrt1: -805270337
+    m_lastTimePart2: -1999422194
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{C4D2C243-F65D-49FA-B5A6-10992358DDE5}'
+    m_lastTimePsrt1: -806071116
+    m_lastTimePart2: -1999422194
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{3BD899AD-1ADB-4A40-9C5A-1A4E1876B1AC}'
+    m_lastTimePsrt1: -805231641
+    m_lastTimePart2: -1999422194
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FCC50CEE-00FD-46DB-9919-FE34FA957439}'
+    m_lastTimePsrt1: -409973565
+    m_lastTimePart2: -1999421506
+    List:
+    - Name: PC_Soundbank
+      Path: Default Work Unit\PC_Soundbank
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC_Soundbank
+        ObjectType: 7
+      ID: -1817749936
+      Guid: a4ebd3a20fb45d4f9b1193c02db92318
+  ExpandedItems:
+  - /Starlight
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  memoryCutoffThreshold: 0.95

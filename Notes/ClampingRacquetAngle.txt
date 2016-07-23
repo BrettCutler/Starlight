@@ -1,0 +1,33 @@
+// get angle of ball
+// flip zVelocity to positive
+angleOfBallY = atan2( -ballVelocity.z, ballVelocity.y ).ToDegrees
+angleOfBallX = atan2( -ballVelocity.z, ballVelocity.x ).ToDegrees
+
+// get angle of racquet
+angleOfRacquetX = racquet.body.rotation.eulerAngles.x
+angleOfRacquetY = racquet.body.rotation.eulerAngles.y
+
+// get output angle
+////////////////
+// solve: 90 = angleOfBall + (2 * ([maxAngleOfRacquet] - angleOfBall) + 180)
+// 90 - angleOfBall = 2 * ([maxAngleOfRacquet] - angleOfBall) + 180
+// -90 - angleOfBall = 2 * ([maxAngleOfRacquet] - angleOfBall)
+// -90 + angleOfBall = 2 * maxAngleOfRaccquet
+// (-90 + angleOfBall)/2 = maxAngleOfRacquet
+////////////////
+// min/max are flipped, -angles are angling towards ceiling
+minAngleOfRacquetAroundX = (-90f + angleOfBallY)/2;
+maxAngleOfRacquetAroundX = minAngleOfRacquetAroundX + 90f
+
+minAngleOfRacquetAroundY = (-90f + angleOfBallX)/2
+maxAngleOfRacquetAroundY = minAngleOfRacquetAroundY + 90f
+
+
+
+enteredState = 5
+nextSwingDuration = 3
+maxSwingTime = 1
+
+time to start = 7
+
+7 - 5 > nextSwingDuration - maxSwingTime

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}" SchemaVersion="70">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{338CB5EF-1860-45D0-B991-3E43ED34E2C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Sound Effects" ID="{0DFBC9C0-870F-4AE7-942B-A889A0ED9558}">
+							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Music" ID="{B6588929-346B-4E04-8FCC-63F1119C1C00}"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,195 @@
+TODO
+----------------
+* Racquet can miss target during swing
+  * IN TESTING
+  * Problem is rotating at root: animation gets wildly offset
+  * Fixed by player 
+
+* Racquet body is losing zero position again...
+
+* Build better tile patterns
+  * Move left, right
+  * Advance on player
+
+* Add player-triggered racquet swing
+  * Added early implementation, but
+    * Can't tell if successfully activated swing
+    * Research Cosmic Smash to see how this work: does it trigger "ready" anim?
+
+* Add 'lurching' target advancement option -- space-invaders-esque, on beat events
+
+* Get power shot working
+  * Turns all targets into Trigger colliders?
+
+* Expend combo meter
+  * When power shot triggered
+  * When combo target explodes
+  * Rename: 'glimmer' or something
+
+[X] Get spawned combo trigger target
+  * moves in sinusoidal pattern, glows orange, when hit explodes nearby tiles
+  [X] no, moves in ricochet pattern, so it's predictable over longer period
+
+* Clean up code: ball OnCollision
+  * Organize logic for code reuse, expandibility for new target types
+
+[X] Add HSV color support
+
+[X] Add Color extensions for slerping, piecewise conversion to HSL (see colorx)
+
+[X] Implement more robust delays
+  * Get beat delay on hit target
+  * Delay on back wall
+  * Delay on walls
+
+[X] Add ability to swap ball speed between OnBeat, OnOddBeat
+  * adjust delay timers in GameBallCharacterController
+
+* To cover initial impact and delayed sound effects discrepancy, does it help to:
+  * Upon un-synced impact, play fill sound (how sharp of an attack?)
+    * Fill sound duration is about one default wait (half-beat)
+    * We don't cut it at release point, we just let it play
+  * Upon sync & release, play hit sound (definitely sharp attack)
+
+[X] Add beat-synced color changes
+  * tile court grid - disco color change
+    * change palette, speed as intensity increases
+
+* Add basic menu
+  * title screen
+  * simple options
+    * start game
+    * exit
+    * toggle: auto-swing
+    * ball speed (on beat, on odd beat)
+    * toggle: forced racquet delay, or only when needed
+    * toggle: activated combo (display button), or target combo
+    * toggle: use shatterable targets
+    * toggle: combo increment on hit racquet or target
+  * identical to pause screen?
+  * [esc] or button to pause
+    * restart
+    * exit=
+
+* Add sophisticated tag system
+
+* Clean up code
+  * Comment
+  * Remove unnecessary variables
+  * Organize file structure
+  * Don't do work on Awake when it could be serialized
+
+[X] Get Trigger target tiles working
+
+[X] Get countdown to count to 4
+
+[X] Racquet position not getting properly reset after certain swings
+
+[X] Ball is not bouncing high enough
+  * Fixed by adjusting input of original bounce into bounceback
+
+[X] Add option for testing racquet swing accuracy:
+  * "auto-x-position for racquet swing"
+    * for more accurate test, update x-Pos to ball's every frame during swing states
+
+[X] Fix racquet being set to middle of court for  swing
+
+[X] Light analog stick horizontal movement results in reversed movement
+  * i.e., if h.magnitude < .2, x+ becomes x-, vice-versa
+
+[X] If ball is bouncing up (yVel > 0 ) and hits racquet angle up, it can bounce off racquet into -z, going out of bounds
+  * Fix animation taking precedence over angle clamping by putting angle clamp adjustment into root, not body
+  * REDO THIS: ball seems safe now, but player has too little, too inconsistent control over ball placement
+
+[X] Add screen shake
+
+[X] Add option for beat delay on hit:
+  * racquet
+  * wall
+  * target
+
+* Transition between songs
+  * no gameplay interruption
+  * highlight earlier score
+  * shift colors
+  * change art? (no art yet...)
+
+* tie object color to level palette theme
+  * can change as song, song mood change
+
+[X] Racquet swing not moving properly in z,y
+  * Animation blending settings angry again, most likely
+    * Moving the height anim up to the top layer (so it's not blending at all with the swing) fixed this
+    * The cost: height anim will stomp any other input to y,z pos during swing
+      * But I'm not doing this, so it should be ok
+
+[X] Why isn't racquet being properly set to zPos specified in GameManager?
+  * This was clamping position to bounds using Vector2 assignment, which set z=0
+
+[X] COROUTINE is not precise enough to track quarter beats. Check if it's precise enough to track half-beats
+  * We can still predic when a quarter, eighth beat will happen or say when it did -- fractionalizing beatDuration works fine
+  * But we can't seem to run events based on it
+    * unless:
+      * WaitForMusicManager updates every frame, checks if enough time has passed, trips a beat event?
+
+* For racquet anim swing prediction:
+  * getting a longer lead spaces out the anim
+  *  but, it risks the ball colliding with a surface after estimate -- screwing up the estimate
+  * Therefore, if we've already initiated the swing, and we collide with something, reset the estimate
+
+[X] Prevent ball from rolling on bottom
+  * How to do this? either:
+    * Set y velocity off of racquet swing -- and adjusted by racquet angle
+    [X] Create minimum y velocity off of bottom pane
+      * Doing this -- it appears to be what Cosmic Smash does, and fake physics is likely more noticeable if applied to player's racquet
+
+[X] WaitForMusicManager conversion to predicting beat events
+  * OnBeat is recording predicted times, but triggering off first Update past canonical time
+  * OnDefault isn't using canonical time, is responsive still
+
+[X] Issues with physics:
+  [X] why is my estimate of when the ball will return to the racquet off of beatTime by so much (by about .122s)?
+    --- the time estimate is wrong, it is hitting the racquet at approximately the right time (probably correct frame)
+      -- so is the error in Distance to Racquet or time to cover distance?
+  [X] why is estimate of ball impact racquet point incorrect (by about -.4y)?
+    --- this is because of incorrect racquet position + print statement of ball position occuring a frame later
+  [X] when ball reaches "nearRacquet", why is my estimate on when it will hit the racquet off by ten frames?
+
+[X] gravity & paddle swing
+  * ball < 2.5z, initiate swing timed to projected impact time?
+  * neutral swing is somewhat up (20 degrees?)?
+  * make sure ball can't lose height inside level
+    * is this done just by assuring height + angle from launch?
+      * is height + angle snapped to a few values that we know work?
+
+
+
+* Get player racquet moving with character controller implementation
+  * Use box to check location, instead of sphere
+  * Make sure it doesn't move in z direction, ever
+  * How does self-rotation effect colliion?
+
+* controller support system
+  * look at version used in Galak-Z
+  * must meet: 360 + generic controllers, PC, Mac, Linux
+
+* Frequency map to 
+
+* Consistent double reflections when ball hits racquet -- fixable!
+
+* Add warning or lock system if movement goes beyond what we can resolve (vel*dt > radius)
+
+* Implement WaitForMoveContinue locks on movement
+  * On racquet
+  * On ball
+    - do it by implementing settor on m_WaitForMoveContinue to make rigidbody kinematic, save old velocity
+
+* Add an input manager
+  * Look into "InControl", Galak-Z is using it
+
+* Build scoring system
+  * combo for multiple hits
+
+* Build editor for block patterns
+
+* Transition between levels
